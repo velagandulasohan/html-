@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        /* background: url('https://source.unsplash.com/collection/190727/1600x900') no-repeat center center/cover;
+            content: ""; */
+            *{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    /* background-color: pink; */
+    height:100vh ;
+    background-image:url(spaghetti-1932466_1280.jpg);
+    background:cover;
+    background-position: center;
+    background-size: auto;
+}
+.navbar{
+    margin:auto;
+    padding: 35px 0px;
+}
+.navbar li{
+    text-align: center;
+    float:left;
+    list-style: none;
+    padding-left: 3%;
+    padding-right: 10%;
+    
+    
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+.navbar li a:hover{
+    color: pink;
+    transition: 2s ;
+    border-bottom: 2px solid white;
+}
+.body{
+    top: 30%;
+    text-align: center;
+    color: whitesmoke;
+    padding-left: 30%;
+    padding-right: 30%;
+    position: absolute;
+}
+.body:hover{
+    color: black;
+    transition: 2s;
+    font-size: medium;
+}
+button{
+    width:200px;
+    padding:15px 2px;
+    margin:20px;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+button a{
+    text-decoration: none;
+    color:black;
+}
+
+    </style>
+    
+</head>
+<body>
+    <div class="header">
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="http://127.0.0.1:5500/websitefrontend/aboutus.html">About Us</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Address</a></li>
+            <li><a href="">Details</a></li>
+        </ul>
+        <div class="body">
+            <h1>Taste the real touch</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum similique doloribus ratione reprehenderit temporibus porro itaque unde dignissimos natus rem.</p>
+            <div>
+                <button type="button"><a href="http://127.0.0.1:5500/websitefrontend/Explore.html">Explore</a></button>
+            </div>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
